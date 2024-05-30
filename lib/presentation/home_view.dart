@@ -37,8 +37,8 @@ class HomeScreenView extends StatelessWidget {
                   SnackBar(content: Text('First: ${textFieldModel.firstText}, Second: ${textFieldModel.secondText}')),
                 );
             }, child: const Text("Submit")),
-            Text("Email"),
-            Text("Password"),
+            Text(textFieldModel.firstText),
+            Text(textFieldModel.secondText),
           ],
         ),
       ),
